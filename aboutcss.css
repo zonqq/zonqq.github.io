@@ -1,0 +1,130 @@
+body{
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0px;
+  display: block;
+  font-family: 'Times New Roman';
+
+}
+  div#wrapper{
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+    position: relative;
+    width: 100%;
+  }
+  div#page{
+    box-sizing: border-box;
+    display: block;
+    flex-grow: 1;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+    padding-top: 160px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  div#content{
+    box-sizing: border-box;
+    display: block;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    width: 60%;
+    }
+    img#myimg{
+      box-sizing: border-box;
+      margin-right: 2%;
+      width: 40%;
+      float: left;
+    }
+div#right{
+  float: right;
+  margin-top: -7px;
+  width: 58%;
+  box-sizing: border-box;
+  display: block;
+}
+div#social{
+  box-sizing: border-box;
+  display: block;
+  letter-spacing: 2px;
+  padding-bottom: 30px;
+  text-align: left;
+}
+div#contact{
+  box-sizing: border-box;
+  display: block;
+  left: 0%;
+  letter-spacing: 2px;
+  line-height: 2;
+  margin: auto;
+  padding-bottom: 30px;
+  text-align: left;
+}
+div#headline{
+  box-sizing: border-box;
+  display: block;
+  letter-spacing: 2px;
+  line-height: 2;
+  padding-bottom: 10px;
+  text-align: left;
+}
+div#features{
+  box-sizing: border-box;
+  display: block;
+  margin: auto;
+  text-align: left;
+}
+div.horizontal{
+  border-top-style: solid;
+  border-top-width: 1px;
+  box-sizing: border-box;
+  display: block;
+  margin-top: -10px;
+  padding-bottom: 10px;
+  width: 20px;
+}
+a{
+  box-sizing: border-box;
+  cursor: pointer;
+  left: 0%;
+  letter-spacing: 2px;
+  line-height: 2;
+  margin: 0px auto 35px;
+  text-align: left;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  margin: 0px 10px 0px 0px
+  color: rgb(56, 56, 56);
+}
+p{
+  box-sizing: border-box;
+  display: block;
+  left: auto;
+  letter-spacing: 2px;
+  line-height: 2;
+  margin: auto;
+  padding-bottom: 30px;
+  text-align: left;
+}
+}
+
+/*--------Responsive--------*/
+@media screen and (max-width: 1400px)
+{
+#content{
+width: 80%;
+}
+}
+@media screen and (max-width: 1024px)
+{
+#content #right {
+width: 100%;
+}
+#content #aboutimg {
+width: 50%;
+float: none;
+margin-bottom: 100px;
+}
